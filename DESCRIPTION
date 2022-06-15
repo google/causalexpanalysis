@@ -1,0 +1,26 @@
+Package: CausalExpAnalysis
+Date: 2022-06-14
+Version: 0.2
+Title: CausalExpAnalysis R package
+Authors@R: c(person("Shyue-Ming","Loh", role = c("aut", "cre"),
+             email = "shyuemingloh@gmail.com"),
+             person("Randy", "Lai", role = "aut",
+             email = "randylai@google.com"),
+             person("Meeyoung", "Park", role = "aut",
+             email = "meeyoung@google.com"))
+Author: Shyue-Ming Loh <shyuemingloh@google.com>
+Maintainer: Randy Lai <randylai@google.com>
+Copyright: Copyright (C) 2022 Google, Inc.
+License: Apache License 2.0 | file LICENSE
+Description: Functions to perform causal and experiment analysis, i.e., analysis
+  for the causal inference of both experiments and observational studies, within
+  a single framework, with a unifying theme of evaluating covariate balance.
+  Three kinds of samples can be created—unadjusted, weighted, and matched—and
+  two kinds of estimators of treatment effects—an analysis of variance (ANOVA)
+  estimator, i.e., a simple difference-in-means estimator, and an analysis of
+  covariance (ANCOVA) estimator, i.e., a regression adjustment estimator, with
+  either equal or unequal slopes assumption for the covariates. Contains helper
+  functions for statistical inference and modeling, visualization of results,
+  and data manipulation.
+Imports: ATE, CBPS, EnvStats, MatchIt, bartCause, car, data.table, ebal,
+  formattable, grf, lme4, lmerTest, lmtest, reshape2, survey, tidyverse, twang
