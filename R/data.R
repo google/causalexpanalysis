@@ -100,7 +100,6 @@ MultipleValuedVars <- function(data, vars) {
 #'     centers them by their average in the treatment population, and
 #' (2) Makes the intercept the counterfactual response for the treatment
 #'     population.
-#' See go/causal-estimands for details.
 #'
 #' @param x A numeric vector containing values to center.
 #' @param w A numeric vector containing weights to construct the centering

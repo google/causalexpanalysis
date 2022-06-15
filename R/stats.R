@@ -428,8 +428,7 @@ FiellerCIMatchedProp <- function(a, b, c, d, conf_level = 0.95, ...) {
 #' Effective Sample Size
 #'
 #' Compute the effective sample size based on the relative efficiency of the
-#' estimation of a weighted mean. See http://go/effective-sample-size for
-#' details.
+#' estimation of a weighted mean.
 #'
 #' @param w A numeric vector of weights for the weighted mean.
 #' @param all_stats Whether to return all the relevant statistics. If
