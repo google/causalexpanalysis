@@ -21,3 +21,7 @@ library(devtools)
 devtools::install_github("google/CausalExpAnalysis")
 library(CausalExpAnalysis)
 ```
+
+#### Disclaimer
+
+This is not an officially supported Google product.
