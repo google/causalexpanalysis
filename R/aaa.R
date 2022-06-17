@@ -15,6 +15,6 @@
 #' @name CausalExpAnalysis
 #' @docType package
 #' @import ATE, CBPS, EnvStats, MatchIt, bartCause, car, data.table, ebal,
-#'   formattable, grf, lme4, lmerTest, lmtest, reshape2, survey, tidyverse,
-#'   twang
+#'   formattable, grf, lme4, lmerTest, lmtest, personalized, reshape2, survey,
+#'   tidyverse, twang
 "_PACKAGE"

@@ -23,4 +23,5 @@ Description: Functions to perform causal and experiment analysis, i.e., analysis
   functions for statistical inference and modeling, visualization of results,
   and data manipulation.
 Imports: ATE, CBPS, EnvStats, MatchIt, bartCause, car, data.table, ebal,
-  formattable, grf, lme4, lmerTest, lmtest, reshape2, survey, tidyverse, twang
+  formattable, grf, lme4, lmerTest, lmtest, personalized, reshape2, survey,
+  tidyverse, twang
