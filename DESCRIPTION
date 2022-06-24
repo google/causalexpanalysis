@@ -22,7 +22,7 @@ Description: Functions to perform causal and experiment analysis, i.e., analysis
   either equal or unequal slopes assumption for the covariates. Contains helper
   functions for statistical inference and modeling, visualization of results,
   and data manipulation.
-Imports: CBPS, EnvStats, MatchIt, bartCause, car, data.table, ebal,
+Imports: ATE, CBPS, EnvStats, MatchIt, bartCause, car, data.table, ebal,
   formattable, grf, lme4, lmerTest, lmtest, personalized, reshape2, survey,
   tidyverse, twang
 Remotes: asadharis/ATE
