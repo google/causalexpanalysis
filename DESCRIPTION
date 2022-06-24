@@ -2,13 +2,13 @@ Package: CausalExpAnalysis
 Date: 2022-06-14
 Version: 0.2
 Title: CausalExpAnalysis R package
-Authors@R: c(person("Shyue-Ming","Loh", role = c("aut", "cre"),
+Authors@R: c(person("Shyue-Ming", "Loh", role = c("aut", "cre"),
              email = "shyuemingloh@gmail.com"),
              person("Randy", "Lai", role = "aut",
              email = "randylai@google.com"),
              person("Meeyoung", "Park", role = "aut",
              email = "meeyoung@google.com"))
-Author: Shyue-Ming Loh <shyuemingloh@google.com>
+Author: Shyue-Ming Loh <shyuemingloh@gmail.com>
 Maintainer: Randy Lai <randylai@google.com>
 Copyright: Copyright (C) 2022 Google, Inc.
 License: Apache License 2.0 | file LICENSE
@@ -22,6 +22,9 @@ Description: Functions to perform causal and experiment analysis, i.e., analysis
   either equal or unequal slopes assumption for the covariates. Contains helper
   functions for statistical inference and modeling, visualization of results,
   and data manipulation.
-Imports: ATE, CBPS, EnvStats, MatchIt, bartCause, car, data.table, ebal,
+Imports: CBPS, EnvStats, MatchIt, bartCause, car, data.table, ebal,
   formattable, grf, lme4, lmerTest, lmtest, personalized, reshape2, survey,
   tidyverse, twang
+Remotes: asadharis/ATE
+Encoding: UTF-8
+RoxygenNote: 7.2.0
